@@ -35,7 +35,7 @@ async def start3(update: Update, context: CallbackContext.DEFAULT_TYPE):
  #   await context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
 
 if __name__ == '__main__':
-    application = ApplicationBuilder().token('5346844231:AAGZ6_aJPPi01TnxGlCg1BLub8w-m3rGX3Q').build()
+    application = ApplicationBuilder().token('TokenBot').build()
 
     
 #    echo_handler= MessageHandler(filters.TEXT & (~filters.COMMAND), echo)
