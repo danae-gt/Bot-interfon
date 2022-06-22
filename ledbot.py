@@ -53,7 +53,7 @@ def action(msg):
         telegram_bot.sendMessage (chat_id, message)
 
 
-telegram_bot = telepot.Bot('5346844231:AAGZ6_aJPPi01TnxGlCg1BLub8w-m3rGX3Q')
+telegram_bot = telepot.Bot('TokenBot')
 print (telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
